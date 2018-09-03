@@ -14,6 +14,7 @@ import com.kpgn.tetrislite.WorkThread;
 import com.kpgn.tetrislite.components.Controls;
 import com.kpgn.tetrislite.components.Display;
 import com.kpgn.tetrislite.components.GameState;
+import com.kpgn.tetrislite.utility.PreferenceUtil;
 import com.kpgn.tetrislite.utility.TextUtil;
 
 import butterknife.BindView;
@@ -96,9 +97,15 @@ public class GameActivity extends AppCompatActivity {
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
+                updateHighScore();
                 showGameOverDialog();
             }
         });
+    }
+
+    private void updateHighScore() {
+        PreferenceUtil.setHighScore(this, game.getScore());
+        PreferenceUtil.setMaximumLevel(this, game.getLevel());
     }
 
     private void showGameOverDialog() {

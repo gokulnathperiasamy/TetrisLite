@@ -20,5 +20,6 @@
     <string name="play_again">Play Again</string>
     <string name="game_over">Game Over</string>
     <string name="about_us">About Us</string>
+    <string name="dismiss">Dismiss</string>
 
 </resources>

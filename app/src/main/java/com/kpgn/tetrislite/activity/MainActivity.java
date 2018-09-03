@@ -1,5 +1,7 @@
 package com.kpgn.tetrislite.activity;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +10,7 @@ import android.view.View;
 
 import com.kpgn.tetrislite.R;
 import com.kpgn.tetrislite.utility.DialogHelper;
+import com.kpgn.tetrislite.utility.PreferenceUtil;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -42,7 +45,19 @@ public class MainActivity extends AppCompatActivity {
     @SuppressWarnings("unused")
     @OnClick(R.id.iv_high_score)
     public void ctaHighScore(View view) {
-
+        final AlertDialog alertDialog = new AlertDialog.Builder(this)
+                .setPositiveButton(R.string.dismiss,
+                        new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int id) {
+                                dialog.dismiss();
+                            }
+                        })
+                .create();
+        alertDialog.setTitle(getString(R.string.high_score));
+        alertDialog.setMessage("\nScore: " + PreferenceUtil.getHighScore(this) +
+                "\n\nLevel: " + PreferenceUtil.getMaximumLevel(this));
+        alertDialog.show();
     }
 
     @SuppressWarnings("unused")
