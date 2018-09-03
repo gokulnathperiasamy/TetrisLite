@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Tetris Lite</string>
+    <string name="app_name">Blocks Lite</string>
 
     <string name="start_game">Start Game</string>
     <string name="about">About</string>
@@ -9,9 +9,9 @@
     <string name="rate_us">Rate Us</string>
     <string name="share">Share</string>
 
-    <string name="copyright_message_footer">Copyright \u00A9 Tetris Lite 2018. All rights reserved.</string>
-    <string name="copyright_message">Copyright \u00A9 Tetris Lite 2018. All rights reserved.\n\nDeveloper: Gokul Nath KP</string>
-    <string name="share_message">Hey, check out Tetris Lite, an awesome tetris game! Here is link to download </string>
+    <string name="copyright_message_footer">Copyright \u00A9 Blocks Lite 2018. All rights reserved.</string>
+    <string name="copyright_message">Copyright \u00A9 Blocks Lite 2018. All rights reserved.\n\nDeveloper: Gokul Nath KP</string>
+    <string name="share_message">Hey, check out Blocks Lite, an awesome tetris game! Here is link to download </string>
 
     <string name="score">Score:</string>
     <string name="level">Level:</string>
