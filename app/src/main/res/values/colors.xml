@@ -1,0 +1,27 @@
+<resources>
+
+    <color name="colorPrimary">#134563</color>
+    <color name="colorPrimaryDark">#0b2839</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="darkbluegreen">#FF408080</color>
+    <color name="yellow">#ffffff30</color>
+    <color name="transparent">#00000000</color>
+    <color name="holo_grey">#FF4D4D4D</color>
+
+    <color name="standardGameBackground">#303030</color>
+    <color name="square_blue">#BC8DBF</color>
+    <color name="square_orange">#FBAF5C</color>
+    <color name="square_yellow">#FFF467</color>
+    <color name="square_red">#F7977A</color>
+    <color name="square_green">#ACD372</color>
+    <color name="square_magenta">#998675</color>
+    <color name="square_cyan">#7BCDC8</color>
+    <color name="square_empty">#00000000</color>
+    <color name="square_error">#FFFFFF</color>
+
+
+</resources>

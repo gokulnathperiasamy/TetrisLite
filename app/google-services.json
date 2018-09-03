@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "253339389755",
+    "firebase_url": "https://tetrislite.firebaseio.com",
+    "project_id": "tetrislite",
+    "storage_bucket": "tetrislite.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253339389755:android:6d52ba0760d1410c",
+        "android_client_info": {
+          "package_name": "com.kpgn.tetrislite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253339389755-dgirn5do99elbs06tuna0fkp9qakllup.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kpgn.tetrislite",
+            "certificate_hash": "0945263c43497343e7ad9d818b539336cc23bb79"
+          }
+        },
+        {
+          "client_id": "253339389755-bvj3gfr2v0l706cg2k628d3uje4hos3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm7uwnOaeJJysP0AjZcwKpEyjjXNHbMPg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253339389755-bvj3gfr2v0l706cg2k628d3uje4hos3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
