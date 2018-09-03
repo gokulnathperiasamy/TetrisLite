@@ -6,11 +6,11 @@ static def appVersionName() {
 }
 
 static def appVersionCode() {
-    return 1
+    return 2
 }
 
 static def appBaseName() {
-    return "TetrisLite"
+    return "BlocksLite"
 }
 
 android {
